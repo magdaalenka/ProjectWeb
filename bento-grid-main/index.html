@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | Bento grid</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #e3dfdf;
+    }
+    .container {
+      width: 1000px;
+      height: 900px;
+      padding: 40px 25px 40px 25px;
+    }
+    .card-1 {
+      background-color:hsl(256, 67%, 59%);
+      width: 520px;
+      border-radius: 10px;
+      padding: 20px;
+      text-align: center;
+      position: relative;
+      left: 42%;
+      top: 3%;
+    }
+    .card-1 h1{
+      color: white;
+      font-size: 50px;
+    }
+    .card-1 p{
+      color: white;
+      font-size: 18px;
+    }
+    .card-2 {
+      background-color:hsl(31, 66%, 93%);
+      width: 295px;
+      height: 400px;
+      border-radius: 10px;
+      text-align: left;
+      position: relative;
+      left: 10%;
+      top: -35%;
+    }
+    .card-2 h2{
+      color: black;
+      font-size: 35px;
+      padding: 40px 0px 0px 40px;
+      margin: 0;
+    }
+    .card-2 h3{
+      color: hsl(256, 67%, 59%);
+      font-size: 35px;
+      padding: 0px 0px 0px 40px;
+      margin: 0;
+    }
+    .img-create-post {
+      position: relative;
+      left: 8%;
+      top: 12%;
+    }
+    .card-3 {
+      background-color: hsl(39, 100%, 71%);
+      width: 295px;
+      height: 400px;
+      border-radius: 10px;
+      text-align: left;
+      position: relative;
+      left: 10%;
+      top: -35%;
+    }
+    .card-3 h2{
+      color: black;
+      font-size: 34px;
+      padding: 15px 0px 0px 40px;
+    }
+    .img-ai-content {
+      position: relative;
+      left: 10%;
+      top: -5%;
+    }
+    .card-4 {
+      background-color:hsl(0, 0%, 100%);
+      width: 275px;
+      height: 220px;
+      border-radius: 10px;
+      text-align: left;
+      position: relative;
+      left: 42%;
+      top: -87%;
+    }
+    .img-platforms {
+      position: relative;
+      left: 8%;
+      top: 2%;
+    }
+    .card-4 h2 {
+      color: black;
+      font-size: 28px;
+      margin: 0;
+      padding: 0 0 0 30px;
+    }
+    .card-5 {
+      background-color: hsl(39, 100%, 71%);
+      width: 275px;
+      height: 220px;
+      border-radius: 10px;
+      text-align: left;
+      position: relative;
+      left: 71%;
+      top: -112%;
+    }
+    .card-5 h2 {
+      color: black;
+      font-size: 28px;
+      margin: 0;
+      padding: 20px 0 0 25px;
+    }
+    .img-schedule {
+      position: relative;
+      top: 2px;
+      left: 20%;
+    }
+    .card-6 {
+      background-color:hsl(0, 0%, 100%);
+      width: 275px;
+      height: 220px;
+      border-radius: 10px;
+      text-align: left;
+      position: relative;
+      left: 42%;
+      top: -109%;
+    }
+    .card-6 h2 {
+      color: black;
+      font-size: 45px;
+      margin: 0;
+      padding: 20px 0 0 30px;
+    }
+    .card-6 p {
+      color: black;
+      font-size: 18px;
+      margin: 0;
+      padding: 10px 0 0 30px;
+    }
+    .img-audience {
+      position: relative;
+      left: 13%;
+      top: 8%;
+    }
+    .card-7 {
+      background-color:hsl(256, 67%, 59%);
+      width: 590px;
+      height: 220px;
+      border-radius: 10px;
+      text-align: left;
+      position: relative;
+      left: 72%;
+      top: -133%;
+    }
+    .card-7 h2 {
+      color: white;
+      font-size: 33px;
+      padding: 55px 0px 0px 320px;
+      margin: 0;
+    }
+    .img-grow {
+        position: relative;
+        left: 10%;
+        top: -64%;
+    }
+    .card-8 {
+      background-color:hsl(254, 88%, 90%);
+      width: 295px;
+      height: 570px;
+      border-radius: 10px;
+      text-align: left;
+      position: relative;
+      left: 101%;
+      top: -225%;
+    }
+    .card-8 h2 {
+      color: black;
+      font-size: 25px;
+      padding: 15px 0px 0px 45px;
+      margin: 0;
+    }
+    .img-schedule {
+      position: relative;
+      left: 19%;
+      top: 2%;
+    }
+    .card-8 p {
+     color: black;
+     font-size: 18px;
+     margin: 0;
+     padding: 30px 0 0 40px;
+    }
+  </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card-1">
+          <h1>Social Media 10x<br> Faster with AI</h1>
+          <img src="assets/images/illustration-five-stars.webp" alt="five stars">
+          <p>Over 4,000 5-star reviews</p>
+        </div>
+        <div class="card-2">
+          <h2>Create and<br> schedule<br> content</h2>
+          <h3>quicker.</h3>
+          <img class="img-create-post" src="assets/images/illustration-create-post-2.png" alt="create post">
+        </div>
+        <div class="card-3">
+          <h2>Write your<br>content<br>using AI.</h2>
+          <img class="img-ai-content" src="assets/images/illustration-ai-content.png" alt="ai content">
+        </div>
+        <div class="card-4">
+          <img class="img-platforms" src="assets/images/illustration-multiple-platforms.png" alt="multiple platforms">
+          <h2>Manage<br>multiple<br>accounts and<br>platforms.</h2>
+        </div>
+        <div class="card-5">
+          <h2>Maintain a<br>consistent<br>posting<br>schedule.</h2>
+          <img class="img-schedule" src="assets/images/illustration-consistent-schedule.png" alt="consistent shedule">
+        </div>
+        <div class="card-6">
+          <h2>>56%</h2>
+          <p>faster audience growth</p>
+          <img class="img-audience" src="assets/images/illustration-audience-growth.png" alt="audience growth">
+        </div>
+        <div class="card-7">
+          <h2>Grow followers<br>withn on-stop<br>content.</h2>
+          <img class="img-grow" src="assets/images/illustration-grow-followers.png" alt="grow followers">
+        </div>
+        <div class="card-8">
+          <h2>Schedule to<br>social media.</h2>
+          <img class="img-schedule" src="assets/images/illustration-schedule-posts.png" alt="schedule">
+          <p>Optimize post timings<br> to publish content at<br> the perfect time for<br> your audience.</p>
+        </div>
+    </div>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
+      Coded by <a href="#">Magdaléna Čížová</a>.
+    </div>
+</body>
+</html>
+
+
+
+
+
