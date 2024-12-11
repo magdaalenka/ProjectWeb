@@ -1,0 +1,199 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #e3dfdf;
+}
+.container {
+    width: 1000px;
+    height: 900px;
+    padding: 40px 25px 40px 25px;
+}
+
+.sm {
+    color: hsl(39, 100%, 71%);
+}
+
+.card-1 {
+    background-color:hsl(256, 67%, 59%);
+    width: 520px;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    left: 42%;
+    top: 3%;
+}
+.card-1 h1{
+    color: white;
+    font-size: 50px;
+}
+.card-1 p{
+    color: white;
+    font-size: 18px;
+}
+.card-2 {
+    background-color:hsl(31, 66%, 93%);
+    width: 295px;
+    height: 400px;
+    border-radius: 10px;
+    text-align: left;
+    position: relative;
+    left: 10%;
+    top: -35%;
+}
+.card-2 h2{
+    color: black;
+    font-size: 35px;
+    padding: 40px 0px 0px 40px;
+    margin: 0;
+}
+.card-2 h3{
+    color: hsl(256, 67%, 59%);
+    font-size: 35px;
+    padding: 0px 0px 0px 40px;
+    margin: 0;
+}
+.img-create-post {
+    position: relative;
+    left: 8%;
+    top: 12%;
+}
+.card-3 {
+    background-color: hsl(39, 100%, 71%);
+    width: 295px;
+    height: 400px;
+    border-radius: 10px;
+    text-align: left;
+    position: relative;
+    left: 10%;
+    top: -35%;
+}
+.card-3 h2{
+    color: black;
+    font-size: 34px;
+    padding: 15px 0px 0px 40px;
+}
+.img-ai-content {
+    position: relative;
+    left: 10%;
+    top: -5%;
+}
+.card-4 {
+    background-color:hsl(0, 0%, 100%);
+    width: 275px;
+    height: 220px;
+    border-radius: 10px;
+    text-align: left;
+    position: relative;
+    left: 42%;
+    top: -87%;
+}
+.img-platforms {
+    position: relative;
+    left: 8%;
+    top: 2%;
+}
+.card-4 h2 {
+    color: black;
+    font-size: 28px;
+    margin: 0;
+    padding: 0 0 0 30px;
+}
+.card-5 {
+    background-color: hsl(39, 100%, 71%);
+    width: 275px;
+    height: 220px;
+    border-radius: 10px;
+    text-align: left;
+    position: relative;
+    left: 71%;
+    top: -112%;
+}
+.card-5 h2 {
+    color: black;
+    font-size: 28px;
+    margin: 0;
+    padding: 20px 0 0 25px;
+}
+.img-schedule {
+    position: relative;
+    top: 2px;
+    left: 20%;
+}
+.card-6 {
+    background-color:hsl(0, 0%, 100%);
+    width: 275px;
+    height: 220px;
+    border-radius: 10px;
+    text-align: left;
+    position: relative;
+    left: 42%;
+    top: -109%;
+}
+.card-6 h2 {
+    color: black;
+    font-size: 45px;
+    margin: 0;
+    padding: 20px 0 0 30px;
+}
+.card-6 p {
+    color: black;
+    font-size: 18px;
+    margin: 0;
+    padding: 10px 0 0 30px;
+}
+.img-audience {
+    position: relative;
+    left: 13%;
+    top: 8%;
+}
+.card-7 {
+    background-color:hsl(256, 67%, 59%);
+    width: 590px;
+    height: 220px;
+    border-radius: 10px;
+    text-align: left;
+    position: relative;
+    left: 72%;
+    top: -133%;
+}
+.card-7 h2 {
+    color: white;
+    font-size: 33px;
+    padding: 55px 0px 0px 320px;
+    margin: 0;
+}
+.img-grow {
+    position: relative;
+    left: 10%;
+    top: -64%;
+}
+.card-8 {
+    background-color:hsl(254, 88%, 90%);
+    width: 295px;
+    height: 570px;
+    border-radius: 10px;
+    text-align: left;
+    position: relative;
+    left: 101%;
+    top: -225%;
+}
+.card-8 h2 {
+    color: black;
+    font-size: 25px;
+    padding: 15px 0px 0px 45px;
+    margin: 0;
+}
+.img-schedule {
+    position: relative;
+    left: 19%;
+    top: 2%;
+}
+.card-8 p {
+    color: black;
+    font-size: 18px;
+    margin: 0;
+    padding: 30px 0 0 40px;
+}
